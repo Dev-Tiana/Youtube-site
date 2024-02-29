@@ -1,0 +1,119 @@
+.thumbnail {
+    width: 100%;
+    margin-bottom: 8px;
+    margin-right: 10px;
+    position: relative;
+}
+.small-but {
+    display: inline-block;
+    vertical-align: top;
+}
+.words-but {
+    display: inline-block;
+    margin-top: 0;
+}
+.smal-but {
+    border-radius: 36px;
+    width: 48px;
+    position: relative;
+    cursor: pointer;
+    
+}
+.ceo-but {
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 0px;
+    width: 380px;
+    font-family: Roboto, Arial;
+    padding-top: 0;
+}
+
+
+.vidoe-author {
+    font-size: 17px;
+    color: rgb(96, 96, 96);
+    margin-bottom: 4px;
+    padding-top: 0;
+    margin-top: 9px;
+    width: 300px;
+}
+.million-but {
+    color: rgb(96, 96, 96);
+    font-size: 17px;
+    margin-top: 0;
+    padding-top: 0;
+    width: 300px;
+}
+
+@media only screen and (max-width: 600px) {
+    .vidoe-author {
+        font-size: 0px;
+    }
+    .million-but {
+        font-size: 0px;
+    }
+}
+
+.video-info-grid {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    grid-gap: 20px;
+}
+.small-image1 {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+   
+}
+
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    grid-gap: 20px;
+    margin-top: 50px;
+    padding-left: 15px;
+    padding-top: 10px;
+    
+    
+}
+.thumnail-row {
+    margin-bottom: 6px;
+    position: relative;
+}
+.video-time {
+    background-color: rgba(0, 0, 0, 0.911);
+    color: white;
+    font-family: Roboto, Arial;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 4px;
+    border-radius: 2px;
+    position: absolute;
+    bottom: 20px;
+    right: 5px;
+    
+}
+.first-div {
+    padding-bottom: 20px;
+}
+
+.video-info-grid .mine-tooltip {
+    position: absolute;
+    left: 20px;
+    width: 60px;
+    top: -40px;
+    right: 0px;
+    margin-top: 260px;
+    margin-left: 10px;
+    opacity: 0;
+    transition: 0pacity 0.15s;
+ }
+ .video-info-grid:hover .mine-tooltip {
+   opacity: 1;
+ }
+ .hopeitwork{
+    padding-left: 0px;
+ }
+ 
